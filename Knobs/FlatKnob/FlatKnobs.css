@@ -1,0 +1,44 @@
+/* ==== GENERAL STYLES ==== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+section {
+  display: inline-block;
+  background-color: white;
+  max-width: 470px;
+  margin: 10px;
+  padding: 7px 150px 10px 10px;
+  border: 1px gray solid;
+  border-radius: 4px;
+}
+
+h3 {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  margin: 0 0 10px 0;
+}
+
+
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  font-size: .875rem;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+  padding: .625rem .9375rem;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  color: white;
+  background: black;
+  transition: background-color .5s ease-in-out;
+}

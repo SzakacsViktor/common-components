@@ -1,0 +1,38 @@
+/* ---- GENERAL ---- */
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* ---- FOOTER ---- */
+
+.footer {
+  text-align: center;
+  background: black;
+  color:hsl(196, 53%, 90%);
+  padding: 2.5rem;
+  font-family: Arial, sans-serif;
+  font-size: .8rem;
+  margin: .5rem;
+  display: block;
+}
+
+.footer strong {
+  font-weight: 600;
+}
+
+nav {
+   margin-top: 1.5rem;
+}
+
+.footernav {
+  text-decoration: none;
+  color: hsl(340, 52%, 65%);
+  padding: .5rem;
+}
+
+.footernav:hover {
+  color :hsl(340, 53%, 75%);
+  transition: color .3s ease-in-out;
+}
